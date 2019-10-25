@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: airbnb
+    schema: airbnb
+    database: learn_raw
+
+    tables:
+      - name: listings
+      - name: listing_history
+      - name: reviews
